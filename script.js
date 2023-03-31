@@ -132,3 +132,21 @@ const contarCliques = () => {
 }
 
 botao.addEventListener("click", contarCliques);
+
+//ex 5-
+
+const notas = [3, 8, 5, 6, 7, 9, 8];
+let soma = 0;
+
+for (let i = 0; i < notas.length; i++) {
+  soma += notas[i];
+}
+
+const media = soma / notas.length;
+console.log(`A média foi: ${media.toFixed(2)}`);
+
+if (media >= 6) {
+  console.log("Aluno aprovado!");
+} else {
+  console.log("Aluno reprovado!");
+}
