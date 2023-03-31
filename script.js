@@ -98,3 +98,17 @@ let funcionarios = [
   
   console.log("Total de descontos: " + totalDescontos);
   document.write(`Total de descontos: ${totalDescontos} <br>`)
+
+//ex 3-
+
+function somaTradicional(a, b, c) {
+  let soma = a + b;
+  let resultado = soma / c;
+  return resultado;
+}
+
+console.log(somaTradicional(10, 20, 2)); //
+
+const somaArrow = (a, b, c) => (a + b) / c;
+
+console.log(somaArrow(10, 20, 2));
