@@ -150,3 +150,17 @@ if (media >= 6) {
 } else {
   console.log("Aluno reprovado!");
 }
+
+//ex 6-
+
+function Login() {
+
+  let usuario = document.querySelector("#usuario").value
+  let senha = document.querySelector("#senha").value
+
+  if(usuario === 'admin' && senha === '1234' ) {
+      alert("Seja Bem-vindo!")
+  } else {
+      alert("Usuário ou senha incorretos.")
+  }
+}
