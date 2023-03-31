@@ -112,3 +112,23 @@ console.log(somaTradicional(10, 20, 2)); //
 const somaArrow = (a, b, c) => (a + b) / c;
 
 console.log(somaArrow(10, 20, 2));
+
+//ex 4-
+
+let cliques = 0;
+const paragrafo = document.getElementById("cliques");
+const botao = document.getElementById("botao");
+
+// function contarCliques() {
+//   cliques++;
+//   paragrafo.textContent = `Fui clicado ${cliques} vezes`;
+// }
+
+// botao.addEventListener("click", contarCliques);
+
+const contarCliques = () => {
+    cliques++;
+    paragrafo.textContent = `Fui clicado ${cliques} vezes`;
+}
+
+botao.addEventListener("click", contarCliques);
