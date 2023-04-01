@@ -182,3 +182,22 @@ if (idade <= 12) {
   console.log("Você é um idoso.");
   alert("Você é um idoso.")
 }
+
+//ex 8-
+
+// O operador '%' em JavaScript significa módulo, e representa o resto de uma divisão, exemplos:
+
+//exemplo 1-
+let resto = 7 % 2
+console.log(resto); //o resto foi: 1
+
+// //exemplo 2- Saber se o numero é par ou ímpar.
+let numero = 8
+
+if (numero % 2 === 0) {
+    console.log("O número é par.");
+  } else {
+    console.log("O número é ímpar.");
+  }
+
+// nesse caso o resto da divisão de 8 por 2 é 0, logo 8 é par, se fosse 7 o resto seria 1, portanto seria ímpar
